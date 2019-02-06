@@ -6,5 +6,6 @@ document.querySelectorAll('a[data-speed]').forEach(function(speedLink) {
         code: 'document.querySelectorAll("audio").forEach(function(audio) { audio.playbackRate = ' + speed + '; });'
       });
     });
+    window.close();
   }
 });

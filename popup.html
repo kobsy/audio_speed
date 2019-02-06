@@ -4,28 +4,26 @@
     <style>
       a {
         position: relative;
-        margin-left: 1em;
         display: block;
         text-align: center;
         text-decoration: none;
-        border-bottom: 2px solid transparent;
+        padding: 0.25em;
+        border-radius: 3px;
       }
 
-      a.active::before {
-        content: '\203A';
-        position: absolute;
-        left: -1em;
+      a:hover {
+        background-color: #ddf;
       }
     </style>
   </head>
   <body>
     <span>Speed:</span><br>
-    <a href="#" data-speed="1.0">1.0</a>
-    <a href="#" data-speed="1.3">1.3</a>
-    <a href="#" data-speed="1.5">1.5</a>
-    <a href="#" data-speed="1.8">1.8</a>
-    <a href="#" data-speed="2.0">2.0</a>
-    <a href="#" data-speed="3.0">3.0</a>
+    <a href="#" data-speed="1.0">1.0x</a>
+    <a href="#" data-speed="1.3">1.3x</a>
+    <a href="#" data-speed="1.5">1.5x</a>
+    <a href="#" data-speed="1.8">1.8x</a>
+    <a href="#" data-speed="2.0">2.0x</a>
+    <a href="#" data-speed="3.0">3.0x</a>
     <script src="popup.js"></script>
   </body>
 </html>
