@@ -2,7 +2,7 @@
   "name": "Audio Speed Adjuster",
   "version": "0.1",
   "description": "Adjust the speed of HTML5 audio elements",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": ["activeTab", "declarativeContent"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
